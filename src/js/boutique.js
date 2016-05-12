@@ -1,5 +1,4 @@
 $(document).ready(function(){
-  // console.log("Fuck");
 
   var storeNames = Object.keys(storeList);
   console.log(storeNames);
