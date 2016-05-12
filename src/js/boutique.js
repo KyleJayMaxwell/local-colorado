@@ -1,7 +1,6 @@
 $(document).ready(function(){
 
   var storeNames = Object.keys(storeList);
-  console.log(storeNames);
   for(i=0;i<storeNames.length;i++){
     console.log(storeList[storeNames[i]]["style"]);
     var storeKey = storeNames[i];
@@ -18,28 +17,7 @@ $(document).ready(function(){
 
   }
 
-
-
-
 });
-
-    //1. Make a constructor for all the stores
-    //Include name, style, address, city,
-    //distance away, email, and website. 
-
-    // var boutqiue = function (info){
-    //   this.style = info.style;
-    //   this.yearFounded = info.year;
-    //   this.address = info.address;
-    //   this.city = info.city;
-    //   this.distance = 0;
-    //   this.website = info.website;
-    //   this.contact = info.contact;
-
-    // };
-
-    //2. Make list of all Colorado boutiques
-    //AndrsienMorton, 
 
 var storeList = {
      "Andrisen Morton" : {
